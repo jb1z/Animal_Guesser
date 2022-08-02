@@ -105,7 +105,7 @@ public class Main {
                     }
                     else{
                         for(Statement el : statementList){
-                            if(el.statementCode() == Statement.animalPareCode(suggestedAnimalName, guessedAnimalName)){
+                            if(el.statementCode() == Statement.animalPairCode(suggestedAnimalName, guessedAnimalName)){
                                 System.out.println("Такая пара: " + suggestedAnimalName +
                                         " и " + guessedAnimalName + " - уже есть!\n");
                                 checkFlag = true;

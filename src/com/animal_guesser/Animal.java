@@ -1,14 +1,14 @@
 package com.animal_guesser;
 
 public class Animal {
-    /**Счётчик количества животных*/
+    /** Счётчик количества животных*/
     private static int countAnimals = 0;
-    /**Счётчик количества связей между животными*/
+    /** Счётчик количества связей между животными*/
     private static int countLinks = 0;
 
-    /**Имя животного*/
+    /** Имя животного*/
     private final String animalName;
-    /**Количество связей животного*/
+    /** Количество связей животного*/
     private int animalLinks = 0;
 
     /** Конструктор принимающий на выход строку - имя животного,
@@ -19,23 +19,23 @@ public class Animal {
         countAnimals++;
     }
 
-    /** Возвращает общее количество животных
+    /** Метод, возвращающий общее количество животных
      * @return countAnimals */
     public static int getCountAnimals(){
         return countAnimals;
     }
-    /** Возвращает общее количество связей животных
+    /** Метод, возвращающий общее количество связей животных
      * @return countLinks */
     public static int getCountLinks(){
         return countLinks;
     }
 
-    /** Возвращает имя животного
+    /** Метод, возвращающий имя животного
      * @return animalName */
     public String getName(){
         return animalName;
     }
-    /** Возвращает имя количество связей животного
+    /** Метод, возвращающий имя количество связей животного
      * @return animalLinks */
     public int getAnimalLinks(){
         return animalLinks;
