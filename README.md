@@ -2,8 +2,6 @@
 
 ## *Угадай животное*
 
----
-
 Программа состоит из трёх классов:
 
 - [`Animal`](https://github.com/jb1z/Animal_Guesser/blob/master/src/com/animal_guesser/Animal.java)
